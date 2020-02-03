@@ -218,13 +218,16 @@ h3 {
 
 .overlay {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 216px;
-  width: calc(50% - 10px);
+  flex-wrap: wrap;
+  width: calc(50% - 20px);
 }
 
-.singup-form { display: flex; }
+.singup-form { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 30px;
+ }
 
 .singup-form input {
   width: 100%;
@@ -234,8 +237,7 @@ h3 {
 
 .wrp {
   display: block;
-  margin-left: 30px;
-  width: calc(100% - 494px);
+  width: calc(50% - 20px);
 }
 
 .textarea {
@@ -243,9 +245,11 @@ h3 {
   width: 100%;
   padding: 20px;
   resize: none;
+  margin-bottom: 30px;
 }
 
 .download-button {
+  display: block;
   background-color: rgb(254, 209, 54);
   width: 240px;
   height: 66px;
@@ -255,9 +259,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-  margin-left: -140px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 input::placeholder,
@@ -269,13 +271,20 @@ input::placeholder,
   text-transform: uppercase;
 }
 
-input:required:focus:valid {
-  border-color: green;
+input:valid {
+  outline-color: green;
+  outline-width: 3px;
+  outline-style: dotted;
 }
 
-input:required:focus:invalid { 
-  border-color: red; 
-} 
+input:invalid {
+  outline-color: red;
+  outline-width: 3px;
+  outline-style: dotted;
+}
 
+input:placeholder-shown {
+  outline-width: 0px;
+}
 
 
