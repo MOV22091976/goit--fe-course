@@ -14,11 +14,9 @@
 /* roboto-slab-regular - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
   src: local('Roboto Slab'),
-       url('../fonts/roboto-slab-v10-latin-regular.woff2') format('woff2'), 
-       url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff'), 
+        url('../fonts/roboto-slab-v10-latin-regular.woff2') format('woff2'),  
+        url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff'), 
 }
 
 /* bilbo-swash-caps-regular - latin */
