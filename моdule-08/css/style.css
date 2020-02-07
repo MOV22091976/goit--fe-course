@@ -34,6 +34,9 @@ img {
   padding-top: 20px;
   margin-bottom: 30px;
 }
+.logo_tablet {
+  display: none;
+}
 
 .authorization {
   display: flex;
@@ -80,6 +83,9 @@ img {
 }
 
 /* section holiday */
+.holiday {
+  display: block;
+}
 .title {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
@@ -90,12 +96,15 @@ img {
 }
 
 .subtitle {
+  display: block;
   font-size: 18px;
   font-family: "Roboto Light", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 1.2;
+  margin-bottom: 8px;
+  width: 220px;
   text-align: center;
-  margin-bottom: 08px;
+  margin: 0 auto;
 }
 
 .find {
@@ -116,6 +125,7 @@ img {
 
 /* section partner */
 .partner {
+  display: block;
   padding-top: 72px;
   padding-bottom: 56px;
 }
@@ -153,10 +163,6 @@ h3 {
 
 .team li:not(:last-child) {
   margin-bottom: 30px;
-}
-
-.team-card {
-  margin-bottom: 20px;
 }
 
 .card {
@@ -256,16 +262,5 @@ h3 {
   cursor: pointer;
   margin: 30px 20px 0;
 }
-
-/* MEDIA */
-@media (max-width: 300px) {
-
-}
-
-
-@media (max-width: 600px) {
-
-}
-
 
 
