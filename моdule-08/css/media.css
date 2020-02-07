@@ -1,3 +1,18 @@
-@media (max-width: 600px) {
+@media (min-width: 600px) {
+    .container {
+        min-width: 768px;
+        padding: 0 10px;
+        margin: auto;
+    }
+    .wrapper {
+        background-image: url(../img/background_tablet.png);
+        height: 700px;
+    }
+    /* .page-header {
+        display: flex;
 
+    } */
+    .logo a {
+        
+    }
 }

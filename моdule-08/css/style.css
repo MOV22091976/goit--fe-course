@@ -42,7 +42,7 @@ img {
   margin-bottom: 100px;
 }
 
-.logo {
+.logo a {
   display: block;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
@@ -142,7 +142,6 @@ h3 {
 
 .img {
   border-radius: 50%;
-  background-color: rgb(251, 251, 251);
   width: 121px;
   height: 121px; 
 }
@@ -157,42 +156,78 @@ h3 {
 }
 
 .team-card {
-  display: inline-block;
-  position: relative;
   margin-bottom: 20px;
 }
 
 .card {
   display: inline-block;
+}
+
+.hunter::before {
+  content: '';
+  background-image: url(../img/icons/tv.png);
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
-  background: no-repeat center;
   border-style: solid;
   border-width: 4px;
   border-color: rgb(255, 255, 255);
   border-radius: 50%;
   width: 37px;
   height: 37px;
-  right: 0;
-  bottom: 0;
-}
-
-.hunter {
-  background-image: url(../img/icons/tv.png);
+  margin-top: 84px;
+  margin-left: 22px;
   background-color: rgb(255, 78, 80);
 }
 
-.marsha {
+.marsha::before {
+  content: '';
   background-image: url(../img/icons/Flasche.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-top: 84px;
+  margin-left: 22px;
   background-color: rgb(255, 165, 7);
 }
 
-.walker {
+.walker::before {
+  content: '';
   background-image: url(../img/icons/Tee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-top: 84px;
+  margin-left: 22px;
   background-color: rgb(28, 215, 173);
 }
 
-.hunter-girl {
+.hunter-girl::before {
+  content: '';
   background-image: url(../img/icons/telegram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-top: 84px;
+  margin-left: 22px;
   background-color: rgb(78, 115, 219);
 }
 
