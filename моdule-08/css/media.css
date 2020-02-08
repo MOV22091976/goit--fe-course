@@ -6,7 +6,6 @@
     }
 
     .wrapper {
-        background-image: url(../img/background_tablet.png);
         height: 700px;
     }
 
@@ -42,11 +41,7 @@
     .authorization {
         margin: 0;
     }
-
-    .holiday {
-        margin: 0 auto;
-    }
-    
+  
     .title {
         font-size: 52px;
         line-height: 1.2;
@@ -82,28 +77,27 @@
     .team li:nth-last-child(-n+2) {
         margin-bottom: 0px;
     }
-
+            
     .partner {
         display: flex;
-        justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
     .download-partners {
-        margin: 0 auto
+        margin: 0;
     }
+
+    .team > .b {
+        order: 3;
+    }
+
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 1440px;
         padding: 0;
-        margin: 0;
-    }
-
-    .wrapper {
-        background-image: url(../img/background_desctop.png);
     }
 
     .page-header {

@@ -25,14 +25,15 @@ img {
 
 /* header */
 .wrapper {
-  background-image: url(../img/background.png);
+  background-image: url(../img/background_desctop.png);
   background-color: rgb(26, 25, 21);
+  background-size: cover;
   height: 540px;
+  background-position: center;
 }
 
 .page-header {
   padding-top: 20px;
-  margin-bottom: 30px;
 }
 .logo_tablet {
   display: none;
@@ -41,7 +42,7 @@ img {
 .authorization {
   display: flex;
   width: 200px;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 100px;
 }
 
@@ -58,7 +59,6 @@ img {
 }
 
 .authorization button {
-  display: block;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
@@ -83,9 +83,10 @@ img {
 }
 
 /* section holiday */
-.holiday {
+/* .holiday {
   display: block;
-}
+} */
+
 .title {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
@@ -96,7 +97,6 @@ img {
 }
 
 .subtitle {
-  display: block;
   font-size: 18px;
   font-family: "Roboto Light", sans-serif;
   color: rgb(255, 255, 255);
@@ -246,7 +246,6 @@ h3 {
 }
 
 .download-partners {
-  display: block;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 78, 80);
@@ -260,7 +259,21 @@ h3 {
   width: 284px;
   height: 44px;
   cursor: pointer;
-  margin: 30px 20px 0;
+  margin-top: 30px;
+  margin-left: 8px;
+}
+
+.team > .a {
+  order: 0;
+}
+.team > .b {
+  order: 1;
+}
+.team > .c {
+  order: 2;
+}
+.team > .d {
+  order: 3;
 }
 
 
