@@ -47,12 +47,16 @@ img {
 }
 
 /* header */
-.wrapper {
+.wrp {
   background-image: url(../img/background_desctop.png);
   background-color: rgb(26, 25, 21);
   background-size: cover;
   height: 540px;
-  background-position: center;
+  background-position: center center;
+}
+
+.holiday {
+  margin-bottom: 200px;
 }
 
 .page-header {
@@ -106,9 +110,6 @@ img {
 }
 
 /* section holiday */
-/* .holiday {
-  display: block;
-} */
 
 .title {
   font-size: 30px;
@@ -120,14 +121,14 @@ img {
 }
 
 .subtitle {
+  display: block;
   font-size: 18px;
   font-family: "Roboto Light", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 1.2;
-  margin-bottom: 8px;
   width: 220px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 .find {
@@ -175,8 +176,6 @@ h3 {
 
 .img {
   border-radius: 50%;
-  width: 121px;
-  height: 121px; 
 }
 
 .team li {
@@ -190,6 +189,7 @@ h3 {
 
 .card {
   display: inline-block;
+  position: relative;
 }
 
 .hunter::before {
@@ -204,8 +204,8 @@ h3 {
   border-radius: 50%;
   width: 37px;
   height: 37px;
-  margin-top: 84px;
-  margin-left: 22px;
+  bottom: 0;
+  right: 0;
   background-color: rgb(255, 78, 80);
 }
 
@@ -221,8 +221,8 @@ h3 {
   border-radius: 50%;
   width: 37px;
   height: 37px;
-  margin-top: 84px;
-  margin-left: 22px;
+  bottom: 0;
+  right: 0;
   background-color: rgb(255, 165, 7);
 }
 
@@ -238,8 +238,8 @@ h3 {
   border-radius: 50%;
   width: 37px;
   height: 37px;
-  margin-top: 84px;
-  margin-left: 22px;
+  bottom: 0;
+  right: 0;
   background-color: rgb(28, 215, 173);
 }
 
@@ -255,9 +255,14 @@ h3 {
   border-radius: 50%;
   width: 37px;
   height: 37px;
-  margin-top: 84px;
-  margin-left: 22px;
+  bottom: 0;
+  right: 0;
   background-color: rgb(78, 115, 219);
+}
+
+.team-card {
+  width: 230px;
+  margin: 0 auto;
 }
 
 .team-text {
@@ -265,10 +270,11 @@ h3 {
   font-family: "Roboto Light", sans-serif;
   color: #808080;
   line-height: 1.2;
-  text-align: center;
+  width: 92%;
 }
 
 .download-partners {
+  display: block;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 78, 80);
@@ -282,8 +288,7 @@ h3 {
   width: 284px;
   height: 44px;
   cursor: pointer;
-  margin-top: 30px;
-  margin-left: 8px;
+  margin: 30px auto 0;
 }
 
 .team > .a {
