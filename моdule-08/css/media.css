@@ -1,14 +1,14 @@
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .container {
         width: 768px;
         padding: 0 10px;
         margin: auto;
     }
 
-    .wrapper {
-        height: 700px;
+    .holiday {
+        margin-bottom: 60px;
     }
-
+    
     .page-header {
         display: flex;
         justify-content: space-between;

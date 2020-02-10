@@ -55,13 +55,10 @@ img {
   background-position: center center;
 }
 
-.holiday {
-  margin-bottom: 200px;
-}
-
 .page-header {
   padding-top: 20px;
 }
+
 .logo_tablet {
   display: none;
 }
@@ -110,6 +107,9 @@ img {
 }
 
 /* section holiday */
+.holiday {
+  margin-bottom: 146px;
+}
 
 .title {
   font-size: 30px;
