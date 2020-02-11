@@ -94,13 +94,8 @@
 
 @media (min-width: 1200px) {
     .container {
-        width: 1440px;
-        padding: 0;
-    }
-
-    .page-header {
         width: 942px;
-        margin: auto 264px 126px;
+        padding: 0;
     }
 
     .title {
