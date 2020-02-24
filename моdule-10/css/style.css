@@ -408,14 +408,14 @@
   background-color: #fce38a;
   }
   
-  .list__social svg {
+  .list__social .social__icon {
   display: inline-block;
   width: 26px;
   height:26px;
   fill: #f38181;
   }
   
-  .social-item .social-item__link:hover svg {
+  .social-item .social-item__link:hover .social__icon {
   fill: rgb(255, 255, 255);
   -webkit-transition: fill 0.2s linear;
   -o-transition: fill 0.2s linear;
