@@ -3,27 +3,27 @@
       background-image: linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../img/banner/picture@2x-min.png);
     }
 
-    .item-1 {
-        background-image: url(../img/services-icon/Photography@2x-min.png);
+    .item-1::before  {
+        background-image: url('../img/services-icon/ALARM@2x.svg');
       }
       
-      .item-2 {
-        background-image: url(../img/services-icon/Web\ Design@2x-min.png);
+      .item-2::before  {
+        background-image: url('../img/services-icon/LINE\ GRAPH@2x.svg');
       }
       
-      .item-3 {
-        background-image: url(../img/services-icon/Creativity@2x-min.png);
+      .item-3::before  {
+        background-image: url('../img/services-icon/COMPUTER\ _\ OK@2x.svg');
       }
       
-      .item-4 {
-        background-image: url(../img/services-icon/seo@2x-min.png);
+      .item-4::before  {
+        background-image: url('../img/services-icon/BOOK\ 2@2x.svg');
       }
       
-      .item-5 {
-        background-image: url(../img/services-icon/Css_Html@2x-min.png);
+      .item-5::before  {
+        background-image: url('../img/services-icon/HOME@2x.svg');
       }
       
-      .item-6 {
-        background-image: url(../img/services-icon/digital@2x-min.png);
+      .item-6::before  {
+        background-image: url('../img/services-icon/LINE\ GRAPH@2x.svg');
       }
 }
