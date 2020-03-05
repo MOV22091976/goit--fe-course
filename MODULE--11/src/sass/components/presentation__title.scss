@@ -1,0 +1,38 @@
+.presentation__title {
+    font-size: 150px;
+    font-family: $main-font-stack;
+    color: $primary-white-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.933;
+    margin: 0 auto;
+    width: 820px;
+    margin-bottom: 102px;
+    text-align: center;  
+    }
+.presentation__slogan {
+    font-size: 72px;
+    font-family: $tagline-font;
+    color: $primary-white-color;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 48px;
+    }
+.presentation__link {
+    display: block;
+    font-size: 14px;
+    color: $primary-white-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: $primary-white-color;
+    background-color: rgba(0, 0, 0, 0);
+    width: 164px;
+    height: 44px;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 12px;
+    }   

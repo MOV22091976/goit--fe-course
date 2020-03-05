@@ -1,0 +1,9 @@
+.banner {
+    background-image: -webkit-gradient( linear, left top, right top, from(rgba(252,227,138,0.9)), to(rgba(243,129,129,0.9))), url('../images/banner/picture-min.png');
+    background-image: -o-linear-gradient( left, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url('../images/banner/picture-min.png');
+    background-image: linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url('../images/banner/picture-min.png');
+    width: 100%;
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    }

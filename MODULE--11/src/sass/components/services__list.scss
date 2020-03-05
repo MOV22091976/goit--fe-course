@@ -1,0 +1,62 @@
+.services__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+.services__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 22px;
+    }
+
+.services__text {
+    font-family: $main-font-text;
+    color: $secondary-dark-color;
+    line-height: 1.6;
+    }
+
+.services__item {
+    position: relative;
+    width: 382px;
+    padding-left: 82px;
+    margin-bottom: 102px;
+    
+    &::before {
+        content: '';
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+        left: 20px;
+    }
+    &:nth-last-child(-n+3) {
+        margin-bottom: 0;
+        }
+}
+
+.item-1::before {
+    background-image: url('../images/sprite/alarm@1x.svg');
+    }
+
+.item-2::before {
+    background-image: url('../images/sprite/line@1x.svg');
+    }
+
+.item-3::before {
+    background-image: url('../images/sprite/computer@1x.svg');
+    }
+
+.item-4::before {
+    background-image: url('../images/sprite/book2@1x.svg');
+    }
+
+.item-5::before {
+    background-image: url('../images/sprite/home@1x.svg');
+    }
+
+.item-6::before {
+    background-image: url('../images/sprite/image@1x.svg');
+    }

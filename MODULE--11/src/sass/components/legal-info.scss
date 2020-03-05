@@ -1,0 +1,14 @@
+.legal-info {
+    font-size: 14px;
+    }
+    
+.legal-info-download {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $footer-legal-info-color;
+        }
+    }
+    
+    

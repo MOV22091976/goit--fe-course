@@ -1,0 +1,21 @@
+.cart-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    
+    .cart-search svg {
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    fill: $primary-white-color;
+    }
+    
+    .cart-search__link:hover svg {
+    fill: $main-underline-color;
+    -webkit-transition: fill 0.2s linear;
+    -o-transition: fill 0.2s linear;
+    transition: fill 0.2s linear;
+    }
